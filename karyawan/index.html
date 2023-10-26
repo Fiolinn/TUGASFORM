@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form</title>
+    <style>
+        header {
+            background-color: rgb(255, 128, 198);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article {
+            padding: 20px;
+            width: 100%;
+            background-color: beige;
+        }
+        footer {
+            background-color: rgb(65, 3, 55);
+            padding: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        nav {
+            background-color: rgb(255, 15, 179);
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Data Karyawan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="../karyawan/index.html">Karyawan</a></li>
+            <li><a href="../bagian/index.html">Bagian</a></li>
+            <li><a href="../penggajian/index.html">Penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <a href="tambah.html" style="background-color:rgb(255, 15, 179); color: white;"> &#x1F479;
+            <b>Tambah</b></a>
+        </div>
+        <hr>
+        <div>
+            <table border="1px" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nik</th>
+                        <th>Nama</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Gaji Pokok</th>
+                        <th>Status Karyawan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0001</td>
+                        <td>Akhmad Firdaus</td>
+                        <td>26-10-2023</td>
+                        <td>7000000</td>
+                        <td>TETAP</td>
+                        <td>
+                            <a href="edit.html" style="background-color:rgb(255, 15, 179); color: white;"> &#x1F479;
+                                <b>Edit</b></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>Powered by Programmer Zaman Now <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>
